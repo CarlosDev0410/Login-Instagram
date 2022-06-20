@@ -15,9 +15,11 @@ body {
     padding: 0;
     display: flex;
     justify-content: center; 
+    margin: 20px;
 }
 
 .instagram-wrapper{
+    margin: 20px ;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -48,14 +50,10 @@ body {
 }
 
 .insta-container {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
     align-self: center;
     background-image: url(img/fundo-cell.png);
     background-position: -46px 0;
     background-size: 468.32px 634.15px;
-    -webkit-flex-basis: 380.32px;
-    -ms-flex-preferred-size: 380.32px;
     flex-basis: 380.32px;
     height: 581.15px;
     margin-bottom: 12px;
@@ -84,13 +82,7 @@ body {
 .instagram-continue {
     color: #262626;
     color: rgba(var(--i1d,38,38,38),1);
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
     margin-top: 12px;
     max-width: 350px;
@@ -103,8 +95,26 @@ body {
     flex-direction: column;
     background-color: #ffffff;
     width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    
+}
+
+.group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 20px;
 }
 
 .group:nth-child(1) {
@@ -112,6 +122,8 @@ body {
 }
 
 .instagram-logo {
+    margin-bottom: 12px;
+    margin-top: 36px;
     max-height: 100%;
     max-width: 100%;
     -o-object-fit: contain;
@@ -130,7 +142,7 @@ body {
     align-self: center;
     border: solid 1px #efefef;
     border-radius: 100px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     margin-top: 8px;
     width:  84px;
     height: 84px;
@@ -142,15 +154,18 @@ body {
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    margin-bottom: 5px;
 }
 
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+    margin-bottom: 12px;
 }
 
 .not-account {
     color: rgb(160, 160, 160);
+    margin-bottom: 3px;
 }
 
 .not-account a {
@@ -182,14 +197,7 @@ body {
 }
 
 .download {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
     margin: 10px 0 10px 0;
 }
@@ -236,6 +244,20 @@ body {
     .group {
         border: 1px solid transparent;
     }
+}
+
+@media (max-width: 450px) {
+    .instagram-continue {
+            justify-content: space-between;
+            margin-top: 0;
+            max-width: 100%;
+        }
+        
+        .group {
+            background-color: transparent;
+            border: 0;
+        }
+    
 }
 
   
