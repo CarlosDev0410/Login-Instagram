@@ -1,11 +1,11 @@
 # Login-Instagram
- Recriando Pagina de Login do instagram
+ Recriando Pagina de Login do instagram / Recreating instagram login page.
 
-## Tecnologias Utilizadas:
+## Tecnologias Utilizadas / Technologies Used:
 * HTML
 * CSS
 * JavaScript
 
-## Preview Link
+## Visualização / Preview Link
 
 * [Instagram Login](https://carlosdev0410.github.io/Login-Instagram/)
