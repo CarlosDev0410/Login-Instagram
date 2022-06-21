@@ -1,7 +1,7 @@
 # Login-Instagram
  Recriando Pagina de Login do instagram
 
-## Tecnologias Útilizadas:
+## Tecnologias Utilizadas:
 * HTML
 * CSS
 * JavaScript
